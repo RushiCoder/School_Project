@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleHelp.css">
+    <title>Issue</title>
+</head>
+<body>
+    <div class="container">
+        <div class="arr left"><div></div></div>
+      </div>
+      <form action="" method="get">
+        <header>
+        <h1 class="main_heading">Help</h1>
+        <script type ="text/javascript">
+            function fun() {
+                alert("Your issue is successfully submitted!");
+            }
+        </script>
+    </header>
+    <br>
+        <br>
+          <p> &emsp; Name: <input type="text" name="name" required></p>
+          <br>
+          <br>
+          <p> &emsp; Email: <input type="email" name="email" id="email" required></p>
+          <br>
+          <br>
+          <p> &emsp; Phone Number: <input type="number" name="phone_number" id="phone_number" required></p>
+          <br>
+          <br>
+          <p> &emsp; Select Issue:
+            <select name="select_issue" id="select_issue">
+                <option value="">--Select Issue--</option>
+                <option value="subject">Subject related issue</option>
+                <option value="app">Application related query</option>
+                <option value="subject">Courses related query</option>
+                <option value="subject">Youtube Channel related query</option>
+            </select>
+          </p>
+          <br>
+          <br>
+          <p> &emsp; Write about your issue: <textarea name="issue" id="male" cols="100" rows="8"></textarea></p>
+          <br>
+          &emsp;  &emsp;<button><input type="submit" value="Submit"></button>
+          <script src="script.js"></script>
+        <br>
+          <br>
+          <br>
+          
+
+      </form>
+
+
+</body>
+</html>
